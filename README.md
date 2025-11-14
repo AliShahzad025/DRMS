@@ -47,17 +47,6 @@ View area-wise coverage and unmet needs.
 
 Export/print reports for accountability.
 
-🛠️ Tech Stack (Suggested)
-
-Frontend: React / Vue / Angular
-
-Backend: Node.js / Django / Laravel
-
-Database: MySQL / PostgreSQL
-
-APIs: Google Maps API for location
-
-Notifications: Twilio / Firebase
 
 📌 Use Cases
 
