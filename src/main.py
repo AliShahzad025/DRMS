@@ -6,6 +6,7 @@ from api.sos_routes import sos_bp
 from api.volunteer_routes import volunteer_bp
 from api.resource_routes import resource_bp 
 from api.victim_routes import victim_bp
+from api.priorityzone_routes import priorityzone_bp
 app = Flask(__name__)   # <-- CREATE APP FIRST
 
 # OPTIONAL: Debug route
@@ -21,5 +22,6 @@ app.register_blueprint(sos_bp)
 app.register_blueprint(volunteer_bp)
 app.register_blueprint(resource_bp)  
 app.register_blueprint(victim_bp)
+app.register_blueprint(priorityzone_bp)
 if __name__ == "__main__":
     app.run(debug=True)
