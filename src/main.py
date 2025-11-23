@@ -12,6 +12,7 @@ from api.task_routes import task_bp
 from api.notification_routes import notification_bp
 from api.auditlog_routes import auditlog_bp
 from api.report_routes import report_bp
+from api.feedback_routes import feedback_bp
 app = Flask(__name__)   # <-- CREATE APP FIRST
 
 # OPTIONAL: Debug route
@@ -33,6 +34,7 @@ app.register_blueprint(notification_bp)
 app.register_blueprint(auditlog_bp)
 app.register_blueprint(report_bp)
 app.register_blueprint(shelter_bp)
-app.register_blueprint(report_bp)
+app.register_blueprint(feedback_bp)
+
 if __name__ == "__main__":
     app.run(debug=True)
